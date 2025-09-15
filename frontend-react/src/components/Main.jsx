@@ -3,7 +3,7 @@ import Button from './button'
 import Header from './Header'
 import Footer from './Footer'
 
-const Main = () => {
+const Main = () => { 
   return (
     <>
     
@@ -14,7 +14,7 @@ const Main = () => {
             A framework for React → It adds structure, performance, and extra features to React.
             Helps you build server-rendered and static web applications.
             Focuses on speed, SEO, and developer experience.</p>
-            <Button text='Login' class='btn-outline-info'/>
+            <Button text='Explore Now' class='btn-outline-info' url='/Dashboard'/>
         </div>
       </div>
       
